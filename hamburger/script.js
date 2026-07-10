@@ -29,6 +29,10 @@ menuBtn.addEventListener('click', ()=> {
         delay: 0.5,
         stagger: 0.2
     })
+    gsap.from('#close', {
+        opacity: 0,
+        delay: 1
+    })
 })
 
 closeBtn.addEventListener('click', ()=>{
