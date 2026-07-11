@@ -385,15 +385,47 @@ p.status span {
     text-align: center;
 }
 
+/* grid-6 styles */
+.grid-6 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: black;
+    
+    h2 {
+        font-size: 3.4rem;
+    }
+    p {
+        color: #222;
+    }
+
+    div {
+        display: flex;
+        margin-top: 7px;
+        width: 88%;
+
+        div {
+            width: 60px;
+            height: 60px;
+            background-color: rgb(200, 178, 239);
+            border-radius: 50%;
+            font-size: 2.3rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+    }
+}
+.grid-6 div div:nth-child(2) {
+    background-color: orange;
+}
 
 
-
-
-
-
-
-
-
+/* grid-7 styles */
 
 .grid-7 {
     grid-column: 3/5;
