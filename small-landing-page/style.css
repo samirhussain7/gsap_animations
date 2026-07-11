@@ -298,6 +298,59 @@ p.status span {
     padding: 0;
 }
 
+/* grid 5 */
+.grid-5 {
+    background-color: orange;
+    padding: 20px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.grid-5 h2 {
+    color: black;
+    width: 80%;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.grid-5 .week {
+    width: 100%;
+    background-color: aliceblue;
+    overflow: hidden;
+    height: 45%;
+    border-radius: 8px 8px 0 0;
+}
+.week p {
+    background-color: rgb(108, 36, 241);
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.week .tick {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 17px;
+    padding-inline: 10px;
+}
+.tick span {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: rgb(108, 36, 241);
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
