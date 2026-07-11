@@ -259,6 +259,7 @@ ol li {
     width: 100%;
     padding-right: 8px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-evenly;
     gap: 19px;
 }
@@ -268,10 +269,31 @@ ol li {
     border-radius: 30px;
     background-color: rgb(108, 36, 241);
 }
-.activity-container:nth-child(1) {
-    height: 30px;
+.activity-container div:nth-child(1) {
+    height: 35px;
 }
-
+.activity-container div:nth-child(2) {
+    height: 45px;
+}
+.activity-container div:nth-child(4) {
+    height: 60px;
+}
+.activity-container div:nth-child(5) {
+    height: 50px;
+}
+p.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7px;
+}
+p.status span {
+    font-size: 13px;
+    background-color: transparent;
+    
+    color: #b8b4b4;
+    padding: 0;
+}
 
 
 
